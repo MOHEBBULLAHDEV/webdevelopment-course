@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form using css flex</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        .login-form-container{
+            display: flex;
+            justify-content: end;
+            /* flex-direction: column; */
+            /* align-items: center; */
+        }
+        form{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            /* margin: 0 auto; */
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+        <a href="">home</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+    </div>
+        <a href="">Login</a>
+    </nav>
+    <section class="login-form-container">
+        <form action="">
+            <h3>Please Login</h3>
+            <input type="email" name="" id="" placeholder="Enter Your Email">
+            <input type="password" name="" id="" placeholder="Enter password">
+            <input type="submit" value="Login">
+        </form>
+    </section>
+
+</body>
+
+</html>
