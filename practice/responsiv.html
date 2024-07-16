@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive Layout</title>
+    <style>
+        .container{
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+        .item{
+            border: 2px solid slateblue;
+        }
+        .item img{
+            width: 100%;
+        }
+        @media screen and (max-width:776px){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        @media screen and (max-width:960px){
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media screen and (max-width:1140px){
+            .container{
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3>Responsive layout </h3>
+    <div class="container">
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -1</h3>
+            <p>price 1000</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo dolorem commodi aliquid voluptatem nemo eveniet distinctio veniam corrupti, quos totam, expedita velit doloremque. Ipsum dolorem veritatis inventore iusto deleniti ad accusamus nesciunt similique sint sapiente quae quia porro at vero, amet soluta vitae iste ducimus harum eveniet voluptatum voluptatibus et recusandae magni! Debitis maiores repudiandae esse dolore, quae id quas omnis unde veniam. Impedit ea maxime quasi ipsa hic dicta dolores, deleniti ipsum praesentium aspernatur at repellat id, officia saepe optio eveniet quidem, possimus odit fugiat. Repellendus natus nemo, autem impedit aperiam iure dolores ex delectus magni quia modi, architecto mollitia vel expedita accusantium distinctio, porro ullam unde? Eligendi accusantium quaerat odio amet perferendis ipsum sapiente repellat ratione tempore.</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -2</h3>
+            <p>price 2000</p>
+            <p>Beatae ratione ipsa iusto temporibus natus repudiandae error quis voluptatum eos, iure eum, delectus illo? Velit ratione, ducimus officia, enim asperiores perferendis reiciendis repellat unde corrupti explicabo fugit inventore voluptatem mollitia iusto ipsam illum omnis incidunt sed totam qui voluptas ut numquam maiores? Labore maiores quas, quisquam voluptate, ex sapiente et architecto enim est qui officia commodi nobis inventore sed hic ratione harum non eveniet reprehenderit laboriosam repellat deserunt similique iste fugiat. Aliquid in nostrum nihil voluptatum nemo distinctio adipisci sed quo, praesentium ipsum sit dolores similique iste? Sint ipsa dolore quasi tempore nisi beatae? Non nulla ab, vero architecto fuga voluptate itaque repellat soluta cupiditate sed repudiandae voluptates nisi voluptas doloremque fugit cumque laudantium? Molestiae possimus nostrum vitae? Error?</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -3</h3>
+            <p>price 3000</p>
+            <p>Reprehenderit ad culpa amet vitae, voluptas repudiandae voluptate soluta praesentium laudantium sequi. Praesentium temporibus excepturi harum, fugiat velit illum ut, eum dolorum perferendis laboriosam corrupti! Qui in voluptatem veritatis ullam vel natus nobis placeat a consequuntur aspernatur perspiciatis eius, repellendus, cupiditate maxime eaque iure deserunt necessitatibus culpa maiores modi. Distinctio, ad unde deserunt dolorum commodi officia ab tempore magni neque, quibusdam incidunt asperiores magnam voluptates. Iste debitis, voluptatibus tenetur minus, minima laudantium ducimus excepturi delectus illum ipsum ut eaque commodi quae aperiam suscipit deserunt reiciendis aspernatur fuga quasi tempore libero fugiat. In iste nesciunt, numquam recusandae incidunt eos illo provident maxime earum omnis tenetur consectetur veniam corrupti porro eveniet temporibus quibusdam molestiae laborum ipsum harum? Veritatis, eligendi sint! Totam, qui?</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -4</h3>
+            <p>price 4000</p>
+            <p>Quod minima, laboriosam quae pariatur harum assumenda unde nisi suscipit obcaecati itaque perferendis velit repellendus corrupti! Obcaecati, modi, eos porro nostrum eveniet, laborum magnam sint id ratione est molestias dolore. Nesciunt et consectetur sunt ipsa optio, aspernatur veniam eius enim, sint atque harum nobis rem illum necessitatibus magni dolor! Soluta impedit quaerat rem ipsum facilis ullam at unde optio dolorum, vero accusamus sequi pariatur quod, magnam voluptatibus nemo porro? Nobis laboriosam nesciunt in adipisci? Animi voluptatem voluptates culpa neque officiis vitae corporis, sequi, vel fugit quae ad soluta saepe. Modi quam necessitatibus voluptatem. Fuga quis, quibusdam praesentium minima nemo, qui ad, ab reprehenderit doloremque vitae fugit nisi voluptates natus? Odit impedit quos delectus non aliquid voluptatum nostrum reiciendis ea et.</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -5</h3>
+            <p>price 5000</p>
+            <p>Molestiae obcaecati incidunt nesciunt officia rerum quisquam. Ipsam sint labore eaque necessitatibus pariatur dolore corporis deleniti voluptas, dolores vitae recusandae dolor repudiandae nostrum ipsa quae modi sit incidunt? Tempore unde, veritatis ex dolorum consectetur ea modi odio magnam dicta saepe, assumenda exercitationem placeat iusto est mollitia dignissimos omnis, vitae cumque? Nihil totam ullam suscipit. Optio quaerat harum doloremque, eius, aliquam ratione consequatur reiciendis inventore asperiores iste officiis neque quam vero dolorum. Nemo aliquam, magni sapiente ratione eos id voluptatem quo suscipit cupiditate et, impedit, eius excepturi molestiae minus delectus officia necessitatibus doloribus laborum reprehenderit tempora ad ipsa voluptates saepe. Iste, illum! Odio inventore corporis voluptas rem iusto recusandae, dolor aliquam at voluptatum neque repellendus delectus fuga, ab veniam atque eligendi!</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -6</h3>
+            <p>price 6000</p>
+            <p>Magni necessitatibus ad id assumenda commodi, eos similique in fuga beatae labore reprehenderit quam cupiditate soluta non nam officiis modi suscipit ut veniam iure est quasi sunt! Vero ullam quam, natus atque architecto quae cumque quo! Esse eius expedita ea inventore, consectetur similique quo consequatur exercitationem nisi saepe sequi sed corrupti sapiente ipsa modi, distinctio enim velit est dolorem magni? Quae consectetur accusantium quas fuga? Eveniet quia adipisci quod deserunt saepe animi rem maiores ut, eaque omnis beatae exercitationem obcaecati et facilis fugiat possimus ipsum fuga similique eius facere pariatur reiciendis corporis! Ut rem ducimus ipsam repellendus esse quo placeat fugit voluptate ab, architecto quis, consectetur earum illum aperiam voluptates quisquam libero deserunt, doloribus hic laborum perspiciatis. Quibusdam, quis beatae?</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -7</h3>
+            <p>price 7000</p>
+            <p>Enim iure modi repellat. Eius nesciunt dignissimos obcaecati rem ipsum a eligendi rerum, odio praesentium nihil placeat laborum quasi ratione quo alias culpa veniam pariatur repellat? Necessitatibus, ab eos culpa porro nihil sint voluptatibus atque veritatis nam dignissimos maiores, iure omnis tenetur dolore facilis repudiandae iste dolorum? Magnam animi, recusandae et vel iste, voluptates doloribus architecto molestias esse totam iusto quam repellendus nam similique, autem ex corrupti. Et nostrum vitae laborum provident consequuntur expedita vel totam! Quibusdam odio deleniti consequuntur assumenda maiores sapiente laudantium, error ad, dignissimos quisquam, quae eaque. Non dolore tempora temporibus vel aut porro molestiae mollitia, repellat eius corrupti tenetur neque nemo et illo minus esse animi. Hic sunt perferendis reiciendis asperiores corporis veritatis molestias reprehenderit provident.</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -8</h3>
+            <p>price 8000</p>
+            <p>Quae porro magnam dolore quo eius corporis suscipit ullam consequuntur impedit, libero perferendis, fugiat quidem architecto quia sequi distinctio id voluptatibus alias molestiae! Distinctio hic quam sunt ducimus! Rem voluptates magni, facilis facere aspernatur, qui libero, nemo et atque exercitationem laudantium provident eligendi iste? Minus facere dolore consectetur distinctio! Enim at eos vero tempore eius sunt corporis exercitationem? Nostrum quis ab eligendi esse omnis, expedita quam accusamus praesentium laudantium distinctio in. Laboriosam maxime quibusdam cum? Numquam adipisci, consectetur laborum sed minus consequuntur vitae possimus voluptate tempora aperiam magnam, voluptatem perspiciatis deleniti aut cupiditate corporis optio minima quos exercitationem rem commodi autem voluptates! Dolorem quaerat tempora, consequuntur minus vitae blanditiis corrupti optio minima, velit nemo cum vel veniam rerum commodi accusamus?</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -9</h3>
+            <p>price 9000</p>
+            <p>Libero autem repudiandae ea odit modi magni, consectetur obcaecati impedit corrupti dolores, saepe illo corporis a dicta beatae dolorem nulla! Beatae, consectetur in iusto cumque ipsa qui. Nemo, quasi illo, laudantium praesentium provident eveniet placeat accusantium aperiam sit, fugiat vitae enim consequuntur odio tempora! Nihil temporibus quo expedita ad amet cupiditate error nulla explicabo culpa dignissimos reprehenderit alias facere aut hic corrupti similique sequi, porro, ipsam dolor non minima, aspernatur repellat unde? Odit unde molestiae, sint laborum nemo earum repellendus commodi quis, saepe, praesentium esse? Sapiente alias, a perspiciatis officiis labore, accusantium repellat vel totam ratione illum temporibus repellendus reprehenderit ipsam ducimus illo voluptate laudantium asperiores error iure eum est consectetur assumenda magni dolorem? Nemo ipsam sit molestias amet earum!</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -10</h3>
+            <p>price 10000</p>
+            <p>Incidunt tempora eius obcaecati impedit. Atque sit quo quae necessitatibus expedita aliquam autem qui dicta voluptatem repudiandae voluptatibus, architecto optio harum dolorem eligendi magni? Eum aspernatur perspiciatis neque voluptatum, praesentium quo sint, nesciunt quas ut non fuga adipisci libero, nulla voluptas vel nobis nisi sequi itaque qui necessitatibus natus eos totam? Neque magnam esse, suscipit sunt eos culpa veniam dolore optio beatae ipsa nemo est aut veritatis minima assumenda. Molestiae dicta asperiores voluptas eius quibusdam, illo nisi corporis eum amet veniam rem optio officia illum labore sequi dignissimos magnam adipisci dolores. Repudiandae, sunt sit rerum magnam dolorum reiciendis et, magni odio consectetur cupiditate molestiae a eaque cum porro ex voluptas, expedita ipsum laboriosam perspiciatis est dignissimos eligendi corrupti explicabo dolor!</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -11</h3>
+            <p>price 11000</p>
+            <p>Odio dolores incidunt minima minus quos est ex repudiandae veniam dolorem. Reiciendis sit architecto, omnis aperiam iste suscipit in voluptate molestias quisquam? Temporibus aliquid fugiat nisi iste odit suscipit explicabo accusamus quos corporis nemo expedita impedit, sit harum quis eos fuga? Ut, placeat architecto iste suscipit omnis saepe dolor ab. Incidunt repellat fugiat natus, aliquid tenetur harum repellendus dolorum earum! Repellendus molestiae, labore assumenda illo tempore quam libero dolorum adipisci veniam dolor omnis id nobis nihil voluptas dignissimos similique ad ea quas reiciendis voluptates non architecto aut aliquam eum. Quibusdam ullam ipsa debitis dolorum eaque blanditiis accusamus. Sit quos minus sed delectus perspiciatis aliquid eligendi placeat recusandae veritatis assumenda, nesciunt aliquam, temporibus ea pariatur culpa autem cum et quam alias.</p>
+        </div>
+        <div class="item">
+            <img src="photo/burger.jpg" alt="">
+            <h3>burger item -12</h3>
+            <p>price 12000</p>
+            <p>Autem, quisquam eum? Ad officia illum explicabo omnis, doloribus perferendis tempora recusandae, molestiae iusto, accusamus aliquam dolorem! Asperiores molestiae corrupti sunt illum, iusto itaque delectus est at, alias placeat animi iure dolore nihil enim expedita, eligendi repellendus nulla aliquam voluptatum dolores saepe architecto! Distinctio nihil cupiditate, rem neque perspiciatis deleniti. Fugiat dicta atque vero recusandae fugit maiores tempora fuga. Amet tempore rem, sed exercitationem inventore eveniet eius! Dolores sequi voluptatem harum cumque nihil sunt tenetur deleniti itaque nisi libero ducimus quidem, doloremque, soluta eum vel fugiat quam suscipit. Dolores commodi totam repellendus error velit dolorem ipsum consectetur nihil porro fugit, nam, veritatis, facere reprehenderit optio? Tenetur dicta officiis eum necessitatibus blanditiis reprehenderit velit obcaecati voluptatibus, et architecto, rerum, aliquam sunt?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
