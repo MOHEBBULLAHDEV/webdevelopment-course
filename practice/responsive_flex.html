@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex Responsive</title>
+    <style>
+        :root{
+            font-size: 10px;
+        }
+        .body{
+            font-size: 1.6rem;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            border: 1px solid slateblue;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+        .item-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item{
+            width: 200px;
+            height: 100px;
+            border: 1px solid salmon;
+            background-color: slategray;
+        }
+    </style>
+</head>
+<body class="body">
+    <h2>Flexible Flex</h2>
+    <div class="container">
+        <div class="box">
+            <h3>Box Number -1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet enim suscipit doloremque ea veniam facere neque unde debitis atque voluptas, earum exercitationem hic optio impedit perferendis possimus itaque recusandae. Sit quam dignissimos minus iure, aut pariatur repellendus perferendis ab magnam error temporibus nostrum accusantium soluta, suscipit iusto earum consequatur laboriosam eaque et? Nisi et aliquam id. Inventore neque maiores maxime amet ab commodi itaque hic nesciunt molestias adipisci est, voluptates temporibus facere pariatur assumenda consequuntur ullam fugiat ipsum fugit officiis perspiciatis illum. Adipisci, quasi. Iste fuga quas quisquam consequuntur similique neque excepturi nulla, quae quidem ad suscipit cumque nobis.</p>
+        </div>
+        <div class="box">
+            <h3>Box Number -2</h3>
+            <p>Ut quos alias libero magni omnis. Rerum, distinctio soluta eligendi delectus a obcaecati aliquid sed vitae assumenda quae unde vero optio nobis corporis neque sit numquam rem tempora dolore libero? Ex ipsum voluptatum cupiditate deleniti magni, consequuntur iusto molestias iure expedita aperiam dolor repellendus voluptate maxime alias veritatis cum sint laudantium, voluptates doloribus placeat illo! Officia incidunt dicta accusantium eos ab, magni sequi commodi? Quas neque error numquam explicabo tenetur sunt deserunt ad ipsam, saepe fugit perferendis atque in temporibus expedita impedit! Dolore minus impedit blanditiis unde sapiente quae ex distinctio vero libero nam, esse minima saepe quidem consequuntur adipisci.</p>
+        </div>
+    </div>
+    <div class="item-container">
+        <div class="item">item -1</div>
+        <div class="item">item -2</div>
+        <div class="item">item -3</div>
+        <div class="item">item -4</div>
+        <div class="item">item -5</div>
+        <div class="item">item -6</div>
+        <div class="item">item -7</div>
+        <div class="item">item -8</div>
+        <div class="item">item -9</div>
+        <div class="item">item -10</div>
+        <div class="item">item -11</div>
+        <div class="item">item -12</div>
+    </div>
+    
+</body>
+</html>
