@@ -8,7 +8,12 @@
         .parent{
             display: grid;
             gap: 10px;
-            grid-template-columns: repeat(7,1fr);
+            grid-template-columns: repeat(4 1fr);
+            grid-template-rows: auto auto;
+            grid-template-areas: 
+            "area1 area2 area2 area3 area4"
+            "area5 area5 area6 area7 area8"
+            ;
             /* grid-template-columns: 250px 300px 200px 250px; */
             /* grid-template-columns: 25px repeat(3,1fr) 700px; */
             /* grid-template-columns: 25% repeat(2,1fr) 50%; */
@@ -27,26 +32,16 @@
 
 
     <div class="parent">
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
+        <div class="child" style="grid-area: area1;"></div>
+        <div class="child"style="grid-area: area2;"></div>
+        <div class="child"style="grid-area: area3;"></div>
+        <div class="child"style="grid-area: area4;"></div>
+        <div class="child"style="grid-area: area5;"></div>
+        <div class="child"style="grid-area: area6;"></div>
+        <div class="child"style="grid-area: area7;"></div>
+        <div class="child"style="grid-area: area8;"></div>
+        
+       
     </div>
     
 </body>
