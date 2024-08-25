@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="practice.js">
+        ;
+
+
+
+    </script>
+    <style>
+        .democlass{
+            color: red;
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+    <!-- change inner html -->
+    <h1 style="font-size: 24px; color: skyblue;" id="demo">Welcome to My webpage</h1>
+    <button onclick='(document.getElementById("demo").innerHTML = "Welcome to javascript")'>Change html</button>
+
+
+
+    <!-- change src attribute -->
+
+
+
+    <img id="photo" src="https://images.pexels.com/photos/1268874/pexels-photo-1268874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="250px">
+    <button onclick="(document.getElementById('photo').src='https://images.pexels.com/photos/135940/pexels-photo-135940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">show parrot</button>
+    <button onclick="(document.getElementById('photo').src='https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">show Rose</button>
+    <button onclick="(document.getElementById('photo').src='https://images.pexels.com/photos/1268874/pexels-photo-1268874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">show original</button>
+    
+
+
+    <!-- change element style -->
+     <p id="entle">Change element style</p>
+     <button onclick="document.getElementById('entle').style.fontSize='36px'">Change style</button>
+     <!-- set attribute -->
+      <p id="red">set attribute for changing color</p>
+      <button onclick="getElementById('red').setAttribute('class', 'democlass')">Change attribute</button>
+
+
+
+
+</body>
+</html>
