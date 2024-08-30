@@ -1,0 +1,27 @@
+var x = 50;
+var y = "5";
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+var s = "Sadia Mim ";
+var m = "mohebbullah";
+console.log(s + m);
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof m);
+var isRed = true;
+console.log(isRed);
+console.log(typeof isRed);
+var fNum = 10.30;
+console.log(typeof fNum);
+console.log(fNum);
+console.log(parseInt(fNum));
+var numTwo = .1 +.2;
+console.log(numTwo);
+console.log(numTwo.toFixed(2));
+ console.log(parseInt(m));
+ console.log(parseInt(y));
+ var love;
+ console.log(love);
+
