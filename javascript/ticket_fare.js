@@ -6,13 +6,11 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
-let age  = 25;
-let kids = (age <= 10 == true);
-let study = false;
+let age  = 35;
+let kids = age <= 10;
+let study = true;
 let Students = age >= 18 && age <=26 && study == true?true:false;
-console.log(Students);
-
-let seniorCitizens = (age >= 60 == true );
+let seniorCitizens = age >= 60;
 
 if(kids){
     console.log("you get free Ticket");
