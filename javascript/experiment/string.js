@@ -1,0 +1,2 @@
+let message = "Google MessagesGoogle HelpSend & read text & voice messages in Google Messages. Send photos, videos, or voice messages in Google Messages. Archive, delete & read conversations in Google ..."
+console.log(message.split(""));
