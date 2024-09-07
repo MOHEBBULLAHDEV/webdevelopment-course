@@ -1,0 +1,13 @@
+let a = 50;
+let b = 80;
+console.log(a,b);
+let c;
+c = a;
+a = b;
+b = c;
+console.log(a,b);
+let x = 80;
+let y = 40;
+console.log(x,y);
+[x,y] = [y,x];
+console.log(x,y);
